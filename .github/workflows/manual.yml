@@ -29,4 +29,4 @@ jobs:
     - name: Send greeting
       run: echo "Containerising Application"
     - name: Create docker Image
-      run: docker build -t catalogic-api-server ./catalogic-api-server/
+      run: docker build -t catalogic-api-server ./catalogic-api-server
