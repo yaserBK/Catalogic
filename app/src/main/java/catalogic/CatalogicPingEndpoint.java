@@ -8,7 +8,7 @@ class CatalogicPingEndpoint {
 
     @GetMapping("/ping")
     public String ping() {
-        return "PONG! Catalogic is RUNNING...";
+        return "PONG!";
     }
     
 
