@@ -9,5 +9,5 @@ public class Catalogic {
     public static void main(String[] args) {
         SpringApplication.run(Catalogic.class, args);
     }
-    
 }
+
