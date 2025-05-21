@@ -18,10 +18,9 @@ import java.time.Instant;
 @Builder
 public class UserInfo {
     @Email
-    private String email; // TODO: check if there is a specific email type to use here instead of a string
+    private String email;
     private String firstName;
     private String lastName;
     private String userId;
-    private String address;// TODO: check if there is a specific address type to use here instead of a String
     private Instant accountCreationDateTime;
 }
