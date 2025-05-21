@@ -14,4 +14,5 @@ public class Book {
     private int pageCount;
     private Date dateOfPublication;
     private int estimatedWordCount;
+    private int isban;
 }
