@@ -9,11 +9,9 @@ import java.time.Instant;
 @Valid
 @Data
 @Builder
-public class UserInfo {
-    @Email
+public class User {
     private String email;
     private String firstName;
     private String lastName;
-    private String userId;
     private Instant accountCreationDateTime;
 }

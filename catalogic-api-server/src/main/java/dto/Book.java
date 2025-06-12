@@ -6,13 +6,13 @@ import lombok.Data;
 import java.util.Date;
 import java.util.List;
 
-@Data
-@Builder
+import org.hibernate.validator.constraints.ISBN;
+
 public class Book {
-    private List<Author> authorList;
+    private List<Author> authors;
     private Date datePublished;
     private int pageCount;
     private Date dateOfPublication;
     private int estimatedWordCount;
-    private int isban;
+    private ISBN isbn;
 }

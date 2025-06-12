@@ -1,0 +1,12 @@
+
+services:
+  database:
+    image: 'postgres:latest'
+    ports: 
+      - 5432:5432
+    environment:
+      POSTGRES_USER: username
+      POSTGRES_PASSWOR: password
+      POSTGRES_DB: default_database
+    volumes:
+      - ${PWD}/pgadmin-data/:/var/lib/pgadmin/
